@@ -1,0 +1,3 @@
+[24-Jan-2013 06:56:45] PHP Fatal error:  Call to undefined function  get_header() in /home/builtinp/public_html/wp-content/themes/BuiltinPittsburgh/index.php on line 16
+[24-Jan-2013 06:57:11] PHP Fatal error:  Call to undefined function  get_header() in /home/builtinp/public_html/wp-content/themes/BuiltinPittsburgh/index.php on line 16
+[17-Aug-2013 00:41:06 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/builtinp/public_html/wp-content/themes/BuiltinPittsburgh/index.php on line 16

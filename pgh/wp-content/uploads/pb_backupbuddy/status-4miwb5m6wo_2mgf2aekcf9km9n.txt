@@ -1,0 +1,213 @@
+1391891434|~|1.26|~|26.75|~|details|~|BackupBuddy v3.1.8.1 using WordPress v3.8.1 on Linux.
+1391891434|~|1.28|~|26.75|~|details|~|Performing pre-backup procedures.
+1391891434|~|1.29|~|26.75|~|message|~|Full backup mode.
+1391891434|~|1.32|~|26.75|~|details|~|Backup serial generated: `4miwb5m6wo`.
+1391891434|~|1.34|~|26.75|~|details|~|Resetting statistics for last backup time and number of edits since last backup.
+1391891434|~|1.36|~|26.75|~|details|~|mysqlbuddy: Calculating tables to backup. Next three lines:
+1391891434|~|1.37|~|26.75|~|details|~|Base dump mode (before inclusions/exclusions): `prefix`.
+1391891434|~|1.39|~|26.75|~|details|~|mysqlbuddy: Base tables (43 tables): `wp_ai1ec_event_category_colors,wp_ai1ec_event_feeds,wp_ai1ec_event_instances,wp_ai1ec_event_instances_restore,wp_ai1ec_events,wp_ai1ec_events_restore,wp_ai1ec_facebook_users,wp_ai1ec_facebook_users_events,wp_ai1ec_facebook_users_events_restore,wp_ai1ec_logging,wp_awpcp_adfees,wp_awpcp_adphotos,wp_awpcp_ads,wp_awpcp_categories,wp_awpcp_pagename,wp_awpcp_pages,wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_rg_form,wp_rg_form_meta,wp_rg_form_view,wp_rg_lead,wp_rg_lead_detail,wp_rg_lead_detail_long,wp_rg_lead_meta,wp_rg_lead_notes,wp_term_relationships,wp_term_taxonomy,wp_terms,wp_usermeta,wp_users,wp_wpbdp_fees,wp_wpbdp_form_fields,wp_wpbdp_listing_fees,wp_wpbdp_payments,wp_wprmm_categories,wp_wprmm_icons,wp_wprmm_items,wp_wprmm_menus`
+1391891434|~|1.41|~|26.75|~|details|~|mysqlbuddy: After addition (43 tables): `wp_ai1ec_event_category_colors,wp_ai1ec_event_feeds,wp_ai1ec_event_instances,wp_ai1ec_event_instances_restore,wp_ai1ec_events,wp_ai1ec_events_restore,wp_ai1ec_facebook_users,wp_ai1ec_facebook_users_events,wp_ai1ec_facebook_users_events_restore,wp_ai1ec_logging,wp_awpcp_adfees,wp_awpcp_adphotos,wp_awpcp_ads,wp_awpcp_categories,wp_awpcp_pagename,wp_awpcp_pages,wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_rg_form,wp_rg_form_meta,wp_rg_form_view,wp_rg_lead,wp_rg_lead_detail,wp_rg_lead_detail_long,wp_rg_lead_meta,wp_rg_lead_notes,wp_term_relationships,wp_term_taxonomy,wp_terms,wp_usermeta,wp_users,wp_wpbdp_fees,wp_wpbdp_form_fields,wp_wpbdp_listing_fees,wp_wpbdp_payments,wp_wprmm_categories,wp_wprmm_icons,wp_wprmm_items,wp_wprmm_menus`
+1391891434|~|1.43|~|26.75|~|details|~|mysqlbuddy: After exclusion (43 tables): `wp_ai1ec_event_category_colors,wp_ai1ec_event_feeds,wp_ai1ec_event_instances,wp_ai1ec_event_instances_restore,wp_ai1ec_events,wp_ai1ec_events_restore,wp_ai1ec_facebook_users,wp_ai1ec_facebook_users_events,wp_ai1ec_facebook_users_events_restore,wp_ai1ec_logging,wp_awpcp_adfees,wp_awpcp_adphotos,wp_awpcp_ads,wp_awpcp_categories,wp_awpcp_pagename,wp_awpcp_pages,wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_rg_form,wp_rg_form_meta,wp_rg_form_view,wp_rg_lead,wp_rg_lead_detail,wp_rg_lead_detail_long,wp_rg_lead_meta,wp_rg_lead_notes,wp_term_relationships,wp_term_taxonomy,wp_terms,wp_usermeta,wp_users,wp_wpbdp_fees,wp_wpbdp_form_fields,wp_wpbdp_listing_fees,wp_wpbdp_payments,wp_wprmm_categories,wp_wprmm_icons,wp_wprmm_items,wp_wprmm_menus`
+1391891434|~|1.59|~|26.75|~|details|~|Breaking out tables DISABLED based on settings.
+1391891434|~|1.67|~|26.79|~|details|~|Creating DAT (data) file snapshotting site & backup information.
+1391891434|~|1.68|~|26.79|~|details|~|wp-config.php found in normal location.
+1391891434|~|1.69|~|26.79|~|details|~|Finished creating DAT (data) file.
+1391891434|~|1.76|~|26.79|~|details|~|Generating ImportBuddy tool to include in backup archive: `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_temp/4miwb5m6wo/importbuddy.php`.
+1391891434|~|1.79|~|26.79|~|details|~|Maximum PHP runtime was not modified due it to being already higher with the value of `0`.
+1391891434|~|1.80|~|26.79|~|details|~|Original PHP memory limit: 256; New: 256M.
+1391891435|~|3.15|~|30.64|~|details|~|ImportBuddy generation complete.
+1391891435|~|3.17|~|30.64|~|details|~|Finished pre-backup procedures.
+1391891435|~|3.19|~|30.64|~|action|~|finish_settings
+1391891436|~|3.21|~|30.64|~|message|~|Running in modern backup mode based on settings. Mode value: `2`. Trigger: `scheduled`.
+1391891436|~|3.23|~|30.64|~|details|~|Scheduling Cron for `4miwb5m6wo`.
+1391891436|~|3.25|~|30.64|~|details|~|Loading DB kicker in case database has gone away.
+1391891436|~|3.26|~|30.64|~|details|~|Database Server connection status verified.
+1391891436|~|3.28|~|30.64|~|details|~|Database seems to still be connected.
+1391891436|~|3.29|~|30.64|~|details|~|Scheduling next step to run at `1391909436` with cron tag `pb_backupbuddy_process_backup` and serial arguments `4miwb5m6wo`. If the backup stalls at this point check the Server Information page cron section to see if a step with these values is listed to determine if the problem is with scheduling the next step or the next step is scheduled but not running.
+1391891436|~|3.31|~|30.64|~|details|~|Next step scheduled in cron.
+1391891436|~|3.33|~|30.64|~|details|~|Finished cron_process_scheduled_backup.
+1391891466|~|0.12|~|24.89|~|details|~|Maximum PHP runtime was not modified due it to being already higher with the value of `0`.
+1391891466|~|0.14|~|24.89|~|details|~|Original PHP memory limit: 256; New: 256M.
+1391891467|~|0.15|~|24.89|~|message|~|Processing cron step for serial `4miwb5m6wo`...
+1391891467|~|0.19|~|25.70|~|details|~|Using cached zipbuddy classic methods: `exec,ziparchive,pclzip`.
+1391891467|~|0.21|~|25.70|~|details|~|Using cached zipbuddy classic exec path: ``.
+1391891467|~|0.23|~|25.70|~|details|~|Running process_backup() for serial `4miwb5m6wo`.
+1391891467|~|0.24|~|26.02|~|details|~|Found next step to run: `backup_create_database_dump`.
+1391891467|~|0.28|~|26.12|~|details|~|Peak memory usage: 26.122 MB
+1391891467|~|0.29|~|26.12|~|details|~|Starting step function `backup_create_database_dump` with args `{wp_ai1ec_event_category_colors,wp_ai1ec_event_feeds,wp_ai1ec_event_instances,wp_ai1ec_event_instances_restore,wp_ai1ec_events,wp_ai1ec_events_restore,wp_ai1ec_facebook_users,wp_ai1ec_facebook_users_events,wp_ai1ec_facebook_users_events_restore,wp_ai1ec_logging,wp_awpcp_adfees,wp_awpcp_adphotos,wp_awpcp_ads,wp_awpcp_categories,wp_awpcp_pagename,wp_awpcp_pages,wp_commentmeta,wp_comments,wp_links,wp_options,wp_postmeta,wp_posts,wp_rg_form,wp_rg_form_meta,wp_rg_form_view,wp_rg_lead,wp_rg_lead_detail,wp_rg_lead_detail_long,wp_rg_lead_meta,wp_rg_lead_notes,wp_term_relationships,wp_term_taxonomy,wp_terms,wp_usermeta,wp_users,wp_wpbdp_fees,wp_wpbdp_form_fields,wp_wpbdp_listing_fees,wp_wpbdp_payments,wp_wprmm_categories,wp_wprmm_icons,wp_wprmm_items,wp_wprmm_menus},` now (1391909467).
+1391891467|~|0.30|~|26.12|~|action|~|start_database
+1391891467|~|0.31|~|26.12|~|message|~|Starting database backup process.
+1391891467|~|0.32|~|26.12|~|message|~|Using auto-detected database dump method(s) based on settings.
+1391891467|~|0.34|~|26.12|~|details|~|mysqlbuddy: Database host: `db509263326.db.1and1.com`
+1391891467|~|0.35|~|26.12|~|details|~|mysqlbuddy: Loading mysqldump library.
+1391891467|~|0.36|~|26.12|~|details|~|mysqlbuddy: Mysql default directories: `/usr/bin/,/usr/bin/mysql/,/usr/local/bin/`
+1391891467|~|0.37|~|26.12|~|details|~|mysqlbuddy: Force method sound of `0` passed.
+1391891467|~|0.38|~|26.12|~|message|~|mysqlbuddy: Method not forced. About to detect directory and available methods.
+1391891467|~|0.40|~|26.12|~|details|~|mysqlbuddy: Attempting to calculate exact mysql directory.
+1391891467|~|0.41|~|26.12|~|details|~|mysqlbuddy: Mysql reported its directory. Reported: `/usr/local/mysql-5.1.73-linux-i686-glibc23/`; Adding binary location to beginning of mysql directory list: `/usr/local/mysql-5.1.73-linux-i686-glibc23/bin/`
+1391891467|~|0.42|~|26.12|~|details|~|mysqldump test: Testing available mysql database dump methods.
+1391891467|~|0.43|~|26.12|~|details|~|mysqldump test: exec() function exists. Testing running mysqldump via exec().
+1391891467|~|0.45|~|26.12|~|details|~|mysqldump test running next.
+1391891467|~|0.46|~|26.12|~|details|~|exec_dir not detected. Proceeding normally.
+1391891467|~|0.47|~|26.12|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /usr/local/mysql-5.1.73-linux-i686-glibc23/bin/mysqldump --version  2>&1` (with path definition).
+1391891467|~|0.48|~|26.12|~|details|~|exec() command output: `sh: /usr/local/mysql-5.1.73-linux-i686-glibc23/bin/mysqldump: No such file or directory`; Exit code: `127`; Exit code description: `Command not found.`
+1391891467|~|0.50|~|26.12|~|details|~|mysqldump test running next.
+1391891467|~|0.54|~|26.12|~|details|~|exec_dir not detected. Proceeding normally.
+1391891467|~|0.56|~|26.12|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /usr/bin/mysqldump --version  2>&1` (with path definition).
+1391891467|~|0.58|~|26.12|~|details|~|exec() command output: `mysqldump  Ver 10.13 Distrib 5.1.73, for debian-linux-gnu (i486)`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1391891467|~|0.60|~|26.12|~|details|~|mysqldump test: Command appears to be accessible and returns expected response.
+1391891467|~|0.61|~|26.12|~|message|~|mysqlbuddy: Detected database dump methods: `commandline,php`.
+1391891467|~|0.63|~|26.12|~|action|~|start_database
+1391891467|~|0.64|~|26.12|~|message|~|Starting database dump procedure.
+1391891467|~|0.65|~|26.12|~|details|~|mysqlbuddy: Output directory: `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_temp/4miwb5m6wo/`.
+1391891467|~|0.66|~|26.12|~|details|~|Table dump count: `43`.
+1391891467|~|0.67|~|26.12|~|details|~|Preparing to dump using available method(s) by priority. Methods: `commandline,php`
+1391891467|~|0.68|~|26.12|~|details|~|mysqlbuddy: Attempting dump method `commandline`.
+1391891467|~|0.70|~|26.12|~|details|~|mysqlbuddy: Preparing to run command line mysqldump via exec().
+1391891467|~|0.72|~|26.12|~|details|~|mysqlbuddy: Command length: `1046`.
+1391891467|~|0.73|~|26.12|~|details|~|mysqlbuddy: Command line length of `1046` (bytes) is large enough ( >250 ) to verify compatibility. Checking maximum allowed command line length for this sytem.
+1391891467|~|0.75|~|26.12|~|details|~|exec_dir not detected. Proceeding normally.
+1391891467|~|0.77|~|26.12|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; echo $(( $(getconf ARG_MAX) - $(env | wc -c) ))` (with path definition).
+1391891467|~|0.81|~|26.12|~|details|~|exec() command output: `1073739830`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1391891467|~|0.82|~|26.12|~|details|~|mysqlbuddy: Command output: `1073739830`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1391891467|~|0.84|~|26.12|~|details|~|mysqlbuddy: Detected maximum command line length for this system: `1073739830`.
+1391891467|~|0.85|~|26.12|~|details|~|mysqlbuddy: This system's maximum command line length of `1073739830` is longer than command length of `1046`. Continuing.
+1391891467|~|0.87|~|26.12|~|details|~|mysqlbuddy: Running dump via commandline next.
+1391891467|~|0.88|~|26.12|~|details|~|exec_dir not detected. Proceeding normally.
+1391891467|~|0.90|~|26.12|~|details|~|exec() command (password hidden) `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; /usr/bin/mysqldump --host=db509263326.db.1and1.com --user=dbo509263326 --password=*HIDDEN* --skip-opt --quick --disable-keys --skip-comments --create-options  db509263326 wp_ai1ec_event_category_colors wp_ai1ec_event_feeds wp_ai1ec_event_instances wp_ai1ec_event_instances_restore wp_ai1ec_events wp_ai1ec_events_restore wp_ai1ec_facebook_users wp_ai1ec_facebook_users_events wp_ai1ec_facebook_users_events_restore wp_ai1ec_logging wp_awpcp_adfees wp_awpcp_adphotos wp_awpcp_ads wp_awpcp_categories wp_awpcp_pagename wp_awpcp_pages wp_commentmeta wp_comments wp_links wp_options wp_postmeta wp_posts wp_rg_form wp_rg_form_meta wp_rg_form_view wp_rg_lead wp_rg_lead_detail wp_rg_lead_detail_long wp_rg_lead_meta wp_rg_lead_notes wp_term_relationships wp_term_taxonomy wp_terms wp_usermeta wp_users wp_wpbdp_fees wp_wpbdp_form_fields wp_wpbdp_listing_fees wp_wpbdp_payments wp_wprmm_categories wp_wprmm_icons wp_wprmm_items wp_wprmm_menus >> /homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_temp/4miwb5m6wo/db_1.sql` (with path definition).
+1391891468|~|1.81|~|26.12|~|details|~|exec() command output: ``; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1391891468|~|1.82|~|26.12|~|details|~|mysqlbuddy: Command appears to succeeded and returned proper response.
+1391891468|~|1.83|~|26.12|~|message|~|mysqlbuddy: Database dump SQL file exists.
+1391891468|~|1.85|~|26.12|~|details|~|Final SQL database dump file size of `db_1.sql`: 7.03 MB.
+1391891468|~|1.86|~|26.12|~|details|~|mysqlbuddy: Dump method `commandline` completed successfully.
+1391891468|~|1.88|~|26.12|~|action|~|finish_database
+1391891468|~|1.89|~|26.12|~|message|~|Database dump procedure succeeded.
+1391891468|~|1.91|~|26.27|~|details|~|Finished function `backup_create_database_dump`.
+1391891468|~|1.94|~|26.27|~|details|~|Peak memory usage: 26.271 MB
+1391891468|~|1.95|~|26.27|~|details|~|Scheduling Cron for `4miwb5m6wo`.
+1391891468|~|1.96|~|26.27|~|details|~|Loading DB kicker in case database has gone away.
+1391891468|~|1.98|~|26.27|~|details|~|Database Server connection status verified.
+1391891468|~|1.99|~|26.27|~|details|~|Database seems to still be connected.
+1391891468|~|2.00|~|26.27|~|details|~|Scheduling next step to run at `1391909468` with cron tag `pb_backupbuddy_process_backup` and serial arguments `4miwb5m6wo`. If the backup stalls at this point check the Server Information page cron section to see if a step with these values is listed to determine if the problem is with scheduling the next step or the next step is scheduled but not running.
+1391891468|~|2.02|~|26.27|~|details|~|Next step scheduled in cron.
+1391891468|~|2.03|~|26.27|~|details|~|Completed step function `backup_create_database_dump` now (1391909468).
+1391891468|~|2.04|~|26.27|~|details|~|The next should run in a moment. If it does not please check for plugin conflicts and that the next step is scheduled in the cron on the Server Information page.
+1391891478|~|0.13|~|24.89|~|details|~|Maximum PHP runtime was not modified due it to being already higher with the value of `0`.
+1391891478|~|0.16|~|24.89|~|details|~|Original PHP memory limit: 256; New: 256M.
+1391891478|~|0.18|~|24.89|~|message|~|Processing cron step for serial `4miwb5m6wo`...
+1391891478|~|0.22|~|25.69|~|details|~|Using cached zipbuddy classic methods: `exec,ziparchive,pclzip`.
+1391891478|~|0.24|~|25.69|~|details|~|Using cached zipbuddy classic exec path: ``.
+1391891478|~|0.26|~|25.69|~|details|~|Running process_backup() for serial `4miwb5m6wo`.
+1391891478|~|0.27|~|26.02|~|details|~|Found next step to run: `backup_zip_files`.
+1391891478|~|0.29|~|26.12|~|details|~|Peak memory usage: 26.122 MB
+1391891478|~|0.31|~|26.12|~|details|~|Starting step function `backup_zip_files` with args `` now (1391909478).
+1391891478|~|0.33|~|26.12|~|action|~|start_files
+1391891478|~|0.36|~|26.12|~|details|~|Backup root: `/homepages/8/d341240688/htdocs/rustbuilt/pgh/`.
+1391891478|~|0.38|~|26.12|~|details|~|Using all available zip methods in preferred order.
+1391891478|~|0.39|~|26.12|~|details|~|Creating ZIP file `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip`. Adding directory `/homepages/8/d341240688/htdocs/rustbuilt/pgh/`. Compression: 1; Excludes: /wp-content/uploads/backupbuddy_backups,/wp-content/uploads/pb_backupbuddy,/importbuddy,/importbuddy.php
+1391891478|~|0.41|~|26.12|~|details|~|Using exec() method for ZIP.
+1391891478|~|0.42|~|26.12|~|details|~|Creating backup exclusions file `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_zip_4miwb5m6wo/exclusions.txt`.
+1391891478|~|0.44|~|26.12|~|details|~|Excluding directory `/wp-content/uploads/backupbuddy_backups/*`.
+1391891478|~|0.47|~|26.12|~|details|~|Excluding directory `/wp-content/uploads/pb_backupbuddy/*`.
+1391891478|~|0.48|~|26.12|~|details|~|Excluding directory `/importbuddy/*`.
+1391891478|~|0.49|~|26.12|~|details|~|Omitting exclusion as file/direcory does not currently exist: `/importbuddy.php`.
+1391891478|~|0.50|~|26.12|~|details|~|Backup exclusions file created.
+1391891478|~|0.51|~|26.12|~|details|~|Using exclusion file `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_zip_4miwb5m6wo/exclusions.txt`.
+1391891478|~|0.53|~|26.12|~|details|~|Exec command (Linux): zip -q -r -b '/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_zip_4miwb5m6wo/' '/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip' . -x@/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_zip_4miwb5m6wo/exclusions.txt 2>&1
+1391891478|~|0.54|~|26.12|~|details|~|exec_dir not detected. Proceeding normally.
+1391891478|~|0.55|~|26.12|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; zip -q -r -b '/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_zip_4miwb5m6wo/' '/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip' . -x@/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_zip_4miwb5m6wo/exclusions.txt 2>&1` (with path definition).
+1391891550|~|72.52|~|26.12|~|details|~|exec() command output: ``; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1391891551|~|73.55|~|26.12|~|message|~|Full speed mode completed & generated ZIP file.
+1391891551|~|73.56|~|26.12|~|message|~|Backup ZIP file successfully created.
+1391891551|~|73.58|~|26.12|~|details|~|Chmod of ZIP file to 0644 succeeded.
+1391891551|~|73.59|~|26.12|~|details|~|Loading DB kicker in case database has gone away.
+1391891551|~|73.60|~|26.12|~|details|~|Database Server has gone away, attempting to reconnect.
+1391891551|~|73.62|~|26.12|~|details|~|Database Server reconnection successful.
+1391891551|~|73.63|~|26.12|~|details|~|Database seems to still be connected.
+1391891552|~|73.65|~|26.13|~|details|~|Finished function `backup_zip_files`.
+1391891552|~|73.72|~|26.13|~|details|~|Peak memory usage: 26.135 MB
+1391891552|~|73.75|~|26.13|~|details|~|Scheduling Cron for `4miwb5m6wo`.
+1391891552|~|73.76|~|26.13|~|details|~|Loading DB kicker in case database has gone away.
+1391891552|~|73.78|~|26.13|~|details|~|Database Server connection status verified.
+1391891552|~|73.79|~|26.13|~|details|~|Database seems to still be connected.
+1391891552|~|73.80|~|26.13|~|details|~|Scheduling next step to run at `1391909552` with cron tag `pb_backupbuddy_process_backup` and serial arguments `4miwb5m6wo`. If the backup stalls at this point check the Server Information page cron section to see if a step with these values is listed to determine if the problem is with scheduling the next step or the next step is scheduled but not running.
+1391891552|~|73.81|~|26.13|~|details|~|Next step scheduled in cron.
+1391891552|~|73.82|~|26.13|~|details|~|Completed step function `backup_zip_files` now (1391909552).
+1391891552|~|73.84|~|26.13|~|details|~|The next should run in a moment. If it does not please check for plugin conflicts and that the next step is scheduled in the cron on the Server Information page.
+1391891570|~|0.13|~|24.89|~|details|~|Maximum PHP runtime was not modified due it to being already higher with the value of `0`.
+1391891570|~|0.14|~|24.89|~|details|~|Original PHP memory limit: 256; New: 256M.
+1391891570|~|0.15|~|24.89|~|message|~|Processing cron step for serial `4miwb5m6wo`...
+1391891570|~|0.18|~|25.69|~|details|~|Zip methods or exec path were not cached; detecting...
+1391891570|~|0.20|~|25.69|~|details|~|Trying exec() in the following paths: `,/usr/bin/,/usr/local/bin/,/usr/local/sbin/,/usr/sbin/,/sbin/,/bin/`
+1391891570|~|0.21|~|25.69|~|details|~|Trying exec() ZIP path: ``.
+1391891570|~|0.22|~|25.69|~|details|~|Zip test exec() command: `zip "/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_52f6dac277038.zip" "/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/plugins/backupbuddy/lib/zipbuddy/zipbuddy.php"  2>&1`
+1391891570|~|0.23|~|25.69|~|details|~|exec_dir not detected. Proceeding normally.
+1391891570|~|0.24|~|25.69|~|details|~|exec() command `PATH=$PATH:/usr/bin/:/usr/local/bin/:usr/local/bin:/usr/local/sbin/:/usr/sbin/:/sbin/:/usr/:/bin/; zip "/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/temp_52f6dac277038.zip" "/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/plugins/backupbuddy/lib/zipbuddy/zipbuddy.php"  2>&1` (with path definition).
+1391891570|~|0.27|~|25.69|~|details|~|exec() command output: `  adding: homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/plugins/backupbuddy/lib/zipbuddy/zipbuddy.php (deflated 77%)`; Exit code: `0`; Exit code description: `Command completed & returned normally.`
+1391891570|~|0.28|~|25.69|~|details|~|ZipArchive test passed.
+1391891570|~|0.31|~|26.37|~|details|~|Caching zipbuddy classic methods & exec path for `60` seconds.
+1391891570|~|0.32|~|26.37|~|details|~|Running process_backup() for serial `4miwb5m6wo`.
+1391891570|~|0.34|~|26.70|~|details|~|Found next step to run: `post_backup`.
+1391891570|~|0.36|~|26.80|~|details|~|Peak memory usage: 26.801 MB
+1391891570|~|0.37|~|26.80|~|details|~|Starting step function `post_backup` with args `` now (1391909570).
+1391891570|~|0.38|~|26.80|~|message|~|Cleaning up after backup.
+1391891570|~|0.39|~|26.80|~|details|~|Removing temp data directory.
+1391891570|~|0.42|~|26.80|~|details|~|Removing temp zip directory.
+1391891570|~|0.44|~|26.80|~|details|~|Trimming old archives (if needed).
+1391891570|~|0.46|~|26.80|~|details|~|Trimmed 0 old archives based on settings archive limits.
+1391891570|~|0.50|~|26.80|~|details|~|Final ZIP file size: 296.39 MB
+1391891570|~|0.51|~|26.80|~|action|~|archive_size^296.39 MB
+1391891570|~|0.53|~|26.80|~|details|~|Sending scheduled backup complete email notification.
+1391891570|~|0.54|~|26.80|~|error|~|Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://pgh.rustbuilt.org`; body: `A scheduled backup has completed with BackupBuddy v3.1.8.1 on Sun, 09 Feb 14 01:32:50 +0000 for the site http://pgh.rustbuilt.org.
+
+Details:
+
+Scheduled backup "BiP Full Backup" completed successfully in 2 minutes.
+`; recipient(s): ``.
+1391891570|~|0.57|~|26.80|~|message|~|Finished cleaning up.
+1391891570|~|0.59|~|26.80|~|action|~|archive_url^backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip
+1391891570|~|0.61|~|26.97|~|details|~|Finished function `post_backup`.
+1391891570|~|0.62|~|26.97|~|details|~|Peak memory usage: 26.974 MB
+1391891570|~|0.63|~|26.97|~|details|~|Scheduling Cron for `4miwb5m6wo`.
+1391891570|~|0.64|~|26.97|~|details|~|Loading DB kicker in case database has gone away.
+1391891570|~|0.65|~|26.97|~|details|~|Database Server connection status verified.
+1391891570|~|0.67|~|26.97|~|details|~|Database seems to still be connected.
+1391891570|~|0.69|~|26.97|~|details|~|Scheduling next step to run at `1391909570` with cron tag `pb_backupbuddy_process_backup` and serial arguments `4miwb5m6wo`. If the backup stalls at this point check the Server Information page cron section to see if a step with these values is listed to determine if the problem is with scheduling the next step or the next step is scheduled but not running.
+1391891571|~|0.71|~|26.97|~|details|~|Next step scheduled in cron.
+1391891571|~|0.72|~|26.97|~|details|~|Completed step function `post_backup` now (1391909571).
+1391891571|~|0.74|~|26.97|~|details|~|The next should run in a moment. If it does not please check for plugin conflicts and that the next step is scheduled in the cron on the Server Information page.
+1391891608|~|0.30|~|24.89|~|details|~|Maximum PHP runtime was not modified due it to being already higher with the value of `0`.
+1391891609|~|0.37|~|24.89|~|details|~|Original PHP memory limit: 256; New: 256M.
+1391891609|~|0.39|~|24.89|~|message|~|Processing cron step for serial `4miwb5m6wo`...
+1391891609|~|0.45|~|25.69|~|details|~|Using cached zipbuddy classic methods: `exec,ziparchive,pclzip`.
+1391891609|~|0.46|~|25.69|~|details|~|Using cached zipbuddy classic exec path: ``.
+1391891609|~|0.48|~|25.69|~|details|~|Running process_backup() for serial `4miwb5m6wo`.
+1391891609|~|0.50|~|26.02|~|details|~|Found next step to run: `send_remote_destination`.
+1391891609|~|0.52|~|26.12|~|details|~|Peak memory usage: 26.123 MB
+1391891609|~|0.53|~|26.12|~|details|~|Starting step function `send_remote_destination` with args `0,` now (1391909609).
+1391891609|~|0.54|~|26.12|~|details|~|Sending file to remote destination ID: `0`.
+1391891609|~|0.56|~|26.12|~|details|~|Sending file `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip` to remote destination `0` triggered by ``.
+1391891609|~|0.58|~|26.13|~|details|~|Not sending importbuddy.
+1391891609|~|0.61|~|26.13|~|details|~|Initialized `dropbox` destination.
+1391891609|~|0.64|~|26.13|~|details|~|Sending files `/homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/uploads/backupbuddy_backups/backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip (296.39 MB); ` to destination type `dropbox` titled `Dropbox`.
+1391891609|~|0.72|~|26.13|~|details|~|Calling send function.
+1391891609|~|0.74|~|26.13|~|details|~|About to load Dropbuddy library...
+1391891609|~|0.77|~|26.13|~|details|~|Dropbuddy loaded.
+1391891609|~|0.80|~|26.13|~|details|~|Dropbuddy object created.
+1391891610|~|1.43|~|26.90|~|details|~|Authenticated to Dropbox.
+1391891610|~|1.45|~|26.90|~|details|~|Looping through files to send to Dropbox.
+1391891610|~|1.46|~|26.90|~|details|~|About to put object `backup-pgh_rustbuilt_org-2014_02_08-full-4miwb5m6wo.zip` to Dropbox cron.
+---
+Fatal PHP error encountered:
+type => 1
+message => Allowed memory size of 268435456 bytes exhausted (tried to allocate 310795878 bytes)
+file => /homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/plugins/backupbuddy/destinations/dropbox/lib/dropbuddy/dropbox_api/API.php
+line => 293
+---
+---
+Fatal PHP error encountered:
+type => 1
+message => Allowed memory size of 268435456 bytes exhausted (tried to allocate 310795878 bytes)
+file => /homepages/8/d341240688/htdocs/rustbuilt/pgh/wp-content/plugins/backupbuddy/destinations/dropbox/lib/dropbuddy/dropbox_api/API.php
+line => 293
+---

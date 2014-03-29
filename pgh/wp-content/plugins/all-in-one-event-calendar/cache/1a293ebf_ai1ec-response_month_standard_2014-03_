@@ -1,0 +1,1121 @@
+<!-- START All-in-One Event Calendar Plugin - Version 1.11.5-pro -->
+<div id="ai1ec-container" class="ai1ec-container">
+	<!-- AI1EC_PAGE_CONTENT_PLACEHOLDER -->
+	<div id="ai1ec-calendar" class="timely">
+			<div class="timely">
+		<div class="ai1ec-calendar-toolbar clearfix">
+							<div class="pull-right">
+						<div class="btn-group">
+					<a href="#ai1ec-submit-ics-modal" class="btn btn-primary btn-mini"
+				data-toggle="ai1ec_modal">
+				<i class="icon-plus"></i>
+				Add Your Calendar Feed			</a>
+					</div>
+
+<div class="ai1ec-modal hide fade" id="ai1ec-submit-ics-modal">
+	<div class="ai1ec-loading"></div>
+	<div class="ai1ec-modal-header">
+		<button type="button" class="close" data-dismiss="ai1ec_modal">×</button>
+		<h2>Add Your Calendar Feed</h2>
+	</div>
+	<form class="ai1ec-submit-ics-form">
+		<span class="ai1ec-nonce-fields">
+			<input type="hidden" id="ai1ec_event" name="ai1ec_event" value="3b7e88807a" /><input type="hidden" name="_wp_http_referer" value="/" />		</span>
+		<div class="ai1ec-modal-body">
+			<div class="ai1ec-pane collapse in">
+				<div class="ai1ec-alerts"></div>
+				<div class="ai1ec-prose">
+					<p>If you know of an event feed you think belongs in this calendar, paste its iCalendar (.ics) feed’s URL below. If approved, its events will be added to this calendar.</p>
+				</div>
+				<div class="row-fluid">
+					<input class="span12" type="text" value=""
+						id="ai1ec_calendar_url" name="ai1ec_calendar_url"
+						placeholder="Paste your calendar’s iCalendar (.ics) feed URL">
+				</div>
+				<div class="row-fluid">
+					<div class="span6">
+						<select class="ai1ec-categories-selector ai1ec-select2-multiselect-selector"
+	id="ai1ec_categories" name="ai1ec_categories[]"
+	placeholder="Categories (optional)"
+	data-placeholder="Categories (optional)"
+	multiple="multiple">
+			<option value="13"
+      							data-description=""
+										data-color=""
+						>
+			Awards Ceremony		</option>
+			<option value="10"
+      							data-description=""
+										data-color=""
+						>
+			class		</option>
+			<option value="14"
+      							data-description=""
+										data-color=""
+						>
+			Conference		</option>
+			<option value="127"
+      							data-description=""
+										data-color=""
+						>
+			Discussion		</option>
+			<option value="129"
+      							data-description=""
+										data-color=""
+						>
+			Fundraiser		</option>
+			<option value="12"
+      							data-description=""
+										data-color=""
+						>
+			hackathon		</option>
+			<option value="22"
+      							data-description=""
+										data-color=""
+						>
+			Meetup		</option>
+			<option value="9"
+      							data-description=""
+										data-color=""
+						>
+			networking		</option>
+			<option value="15"
+      							data-description=""
+										data-color=""
+						>
+			Party		</option>
+			<option value="125"
+      							data-description=""
+										data-color=""
+						>
+			Pitches		</option>
+			<option value="21"
+      							data-description=""
+										data-color=""
+						>
+			Presentation		</option>
+			<option value="11"
+      							data-description=""
+										data-color=""
+						>
+			workshop		</option>
+	</select>
+					</div>
+					<div class="span6">
+						<input class="span12" type="text" value=""
+							id="ai1ec_submitter_email" name="ai1ec_submitter_email"
+							placeholder="Enter your e-mail address">
+					</div>
+				</div>
+											</div>
+
+			<p class="ai1ec-centered">
+				<a href=".ai1ec-submit-ics-form .ai1ec-pane" id="ai1ec-download-toggle"
+					class="btn btn-info btn-large" data-toggle="ai1ec_collapse">
+					<i class="icon-download icon-large"></i>
+					Get Your Own Calendar					<i class="icon-chevron-down"></i>
+					<i class="icon-chevron-up hide"></i>
+				</a>
+			</p>
+
+			<div class="ai1ec-pane collapse ai1ec-prose">
+				<p>
+					If you already have your own <a href="http://wordpress.org/" target="_blank">WordPress</a> website, it’s easy to install your own <strong>All-in-One Event Calendar from Timely</strong>:				</p>
+				<ol>
+					<li>Browse to <a href="http://time.ly/get-your-own-calendar" target="_blank">time.ly/get-your-own-calendar</a>.</li>
+					<li>Download the <em>free</em> <strong>Standard Calendar</strong> plugin.</li>
+					<li>Log into your WordPress dashboard.</li>
+					<li>Browse to <strong>Plugins</strong> &gt; <strong>Add New</strong> &gt; <strong>Upload</strong>.</li>
+					<li>Choose the .zip file you just downloaded, and click <strong>Install Now</strong>.</li>
+				</ol>
+				<p>
+					That’s it! You’ll have your own <strong>All-in-One Calendar</strong> up and running within minutes.				</p>
+				<p>
+					For help or for more information, please visit our <a href="http://help.time.ly/" target="_blank">Help Desk</a>.				</p>
+			</div>
+		</div>
+		<div class="ai1ec-modal-footer">
+			<div class="collapse in ai1ec-pane">
+				<button type="submit"
+					class="btn btn-large btn-primary ai1ec-submit">
+					Submit for review					<i class="icon-chevron-right"></i>
+				</button>
+			</div>
+		</div>
+	</form>
+</div>
+				</div>
+						<ul class="nav nav-pills pull-left"></ul>
+							<ul class="nav nav-pills pull-left ai1ec-filters">
+						<li class="dropdown ai1ec-category-filter ">
+	<a class="dropdown-toggle" data-toggle="dropdown">
+		<i class="icon-folder-open"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="http://pgh.rustbuilt.org/?ai1ec=action~month"
+			data-type="json"			title="Clear category filter">
+			<i class="icon-remove-sign"></i>
+		</span>
+		Categories		<span class="caret"></span>
+	</a>
+	<div class="dropdown-menu">
+					<div data-term="10"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~10">
+										class				</a>
+			</div>
+					<div data-term="14"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~14">
+										Conference				</a>
+			</div>
+					<div data-term="127"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~127">
+										Discussion				</a>
+			</div>
+					<div data-term="129"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~129">
+										Fundraiser				</a>
+			</div>
+					<div data-term="12"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~12">
+										hackathon				</a>
+			</div>
+					<div data-term="22"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~22">
+										Meetup				</a>
+			</div>
+					<div data-term="9"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~9">
+										networking				</a>
+			</div>
+					<div data-term="15"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~15">
+										Party				</a>
+			</div>
+					<div data-term="125"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~125">
+										Pitches				</a>
+			</div>
+					<div data-term="21"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~21">
+										Presentation				</a>
+			</div>
+					<div data-term="11"
+								>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"					href="http://pgh.rustbuilt.org/?ai1ec=action~month|cat_ids~11">
+										workshop				</a>
+			</div>
+			</div>
+</li>
+
+						<li class="dropdown ai1ec-tag-filter ">
+	<a class="dropdown-toggle" data-toggle="dropdown">
+		<i class="icon-tags"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="http://pgh.rustbuilt.org/?ai1ec=action~month"
+			data-type="json"			title="Clear tag filter">
+			<i class="icon-remove-sign"></i>
+		</span>
+		Tags		<span class="caret"></span>
+	</a>
+	<div class="dropdown-menu">
+					<span data-term="8"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~8" >
+					alphalab (1)				</a>
+			</span><!--/.ai1ec-tag-->
+					<span data-term="131"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~131" >
+					baseball (1)				</a>
+			</span><!--/.ai1ec-tag-->
+					<span data-term="134"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~134" >
+					fundraising (1)				</a>
+			</span><!--/.ai1ec-tag-->
+					<span data-term="133"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~133" >
+					jobs act (1)				</a>
+			</span><!--/.ai1ec-tag-->
+					<span data-term="7"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~7" >
+					open coffee (1)				</a>
+			</span><!--/.ai1ec-tag-->
+					<span data-term="132"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~132" >
+					pirates (1)				</a>
+			</span><!--/.ai1ec-tag-->
+					<span data-term="130"
+												>
+				<a class="ai1ec-load-view ai1ec-tag" data-type="json"											style="font-size: 11px;"
+										href="http://pgh.rustbuilt.org/?ai1ec=action~month|tag_ids~130" >
+					rustbuilt (1)				</a>
+			</span><!--/.ai1ec-tag-->
+			</div><!--/.ai1ec-filter-selector-->
+</li><!--/.ai1ec-filter-selector-container-->
+										</ul>
+
+							<div class='pull-left'>
+					<div class='btn-group'  ><a class='btn btn-mini ai1ec-tooltip-trigger hide' id='save_filtered_views' title='Save this filter as default'><icon class='icon-pushpin'  ></icon></a></div>				</div>
+					</div><!-- /.ai1ec-calendar-toolbar -->
+	</div>
+		<div id="ai1ec-calendar-view-container">
+			<div id="ai1ec-calendar-view-loading" class="ai1ec-loading"></div>
+			<div id="ai1ec-calendar-view">
+				<div class="clearfix">
+	<h2 class="ai1ec-calendar-title">March 2014</h2>
+	<div class="ai1ec-title-buttons btn-toolbar pull-right">
+		<div class="ai1ec-pagination btn-group">
+						<a class="ai1ec-prev-year ai1ec-load-view btn"
+				data-type="json"				href="http://pgh.rustbuilt.org/?ai1ec=action~month|exact_date~1362114000"
+				>
+				<i class="icon-double-angle-left"></i> 2013			</a>
+								<a class="ai1ec-prev-month ai1ec-load-view btn"
+				data-type="json"				href="http://pgh.rustbuilt.org/?ai1ec=action~month|exact_date~1391230800"
+				>
+				<i class="icon-angle-left"></i> Feb			</a>
+								<a class='ai1ec-minical-trigger btn'  data-date='3/1/2014' data-date-format='m/d/yyyy' data-date-weekstart='0' data-type='json' data-href='http://pgh.rustbuilt.org/?ai1ec=action~month|exact_date~__DATE__' href='#'><img src="http://pgh.rustbuilt.org/wp-content/themes-ai1ec/vortex/img/date-icon.png" class="ai1ec-icon-datepicker" /></a>								<a class="ai1ec-next-month ai1ec-load-view btn"
+				data-type="json"				href="http://pgh.rustbuilt.org/?ai1ec=action~month|exact_date~1396324800"
+				>
+				Apr <i class="icon-angle-right"></i>			</a>
+								<a class="ai1ec-next-year ai1ec-load-view btn"
+				data-type="json"				href="http://pgh.rustbuilt.org/?ai1ec=action~month|exact_date~1425186000"
+				>
+				2015 <i class="icon-double-angle-right"></i>			</a>
+			</div><!--/.ai1ec-pagination-->
+	</div>
+</div>
+<table class="ai1ec-month-view ai1ec-popover-boundary">
+	<thead>
+		<tr>
+							<th class="ai1ec-weekday">Sun</th>
+							<th class="ai1ec-weekday">Mon</th>
+							<th class="ai1ec-weekday">Tue</th>
+							<th class="ai1ec-weekday">Wed</th>
+							<th class="ai1ec-weekday">Thu</th>
+							<th class="ai1ec-weekday">Fri</th>
+							<th class="ai1ec-weekday">Sat</th>
+					</tr>
+	</thead>
+	<tbody>
+					<tr class="ai1ec-week">
+															<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td >
+
+															<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-1-2014">1</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+												</tr><!--/tr.ai1ec-week-->
+					<tr class="ai1ec-week">
+															<td >
+
+															<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-2-2014">2</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-3-2014">3</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-4-2014">4</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-5-2014">5</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/wordpress-discussion-tips-answers-questions/?instance_id=1553"
+																														data-instance-id="1553"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3575											ai1ec-event-instance-id-1553																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">WordPress Discussion, Tips, and Answers to Questions</span>
+																							<span class="ai1ec-event-time">6:45 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/wordpress-discussion-tips-answers-questions/?instance_id=1553">
+																									WordPress Discussion, Tips, and &#8230;</a>
+																							<span class="ai1ec-event-location">@ TBD</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 5 @ 6:45 pm – 7:45 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt"> Our group has decided to choose different locations around the city. Location will be decided ahead of time. The format of the meeting is [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-6-2014">6</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-7-2014">7</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-8-2014">8</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+												</tr><!--/tr.ai1ec-week-->
+					<tr class="ai1ec-week">
+															<td >
+
+															<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-9-2014">9</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-10-2014">10</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-11-2014">11</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/clojure-meetup-core-async-intro/?instance_id=1596"
+																														data-instance-id="1596"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3633											ai1ec-event-instance-id-1596																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Clojure Meetup &#8211; core.async intro</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/clojure-meetup-core-async-intro/?instance_id=1596">
+																									Clojure Meetup &#8211; core.async intro</a>
+																							<span class="ai1ec-event-location">@ Posvar Hall University of PIttsburgh</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 11 @ 7:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Tuesday, March 11th Meet-up (7:00pm) Presentation: Getting to Know Views Type: Beginner Track: Views Location: University of Pittsburgh (4130 Posvar Hall) Map Speaker: Elizabeth Delgado [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/javascript-pittsburgh-net-user-group/?instance_id=1595"
+																														data-instance-id="1595"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3632											ai1ec-event-instance-id-1595																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">JavaScript &#8211; Pittsburgh .NET User Group</span>
+																							<span class="ai1ec-event-time">7:30 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/javascript-pittsburgh-net-user-group/?instance_id=1595">
+																									JavaScript &#8211; Pittsburgh .NET Use&#8230;</a>
+																							<span class="ai1ec-event-location">@ Microsoft Corporation</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 11 @ 7:30 pm – 8:30 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">JavaScript: if not the final frontier, decidedly the current one. Despite its origins as a prototype and function based language, JavaScript is an object based [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-12-2014">12</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/pittagile-social-2014/?instance_id=1600"
+																														data-instance-id="1600"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3634											ai1ec-event-instance-id-1600																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Titanium and Alloy</span>
+																							<span class="ai1ec-event-time">6:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/pittagile-social-2014/?instance_id=1600">
+																									Titanium and Alloy</a>
+																							<span class="ai1ec-event-location">@ FOREVER Headquarters</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 12 @ 6:00 pm – 7:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Hello PittAgilistas and those who are just Agile-curious! It&#8217;s been a while since we&#8217;ve gotten together as a group; so I thought I&#8217;d schedule an [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-javascript-titanium-alloy/?instance_id=1601"
+																														data-instance-id="1601"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3635											ai1ec-event-instance-id-1601																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Pittsburgh Javascript &#8211; Titanium and Alloy</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-javascript-titanium-alloy/?instance_id=1601">
+																									Pittsburgh Javascript &#8211; Titanium&#8230;</a>
+																							<span class="ai1ec-event-location">@ Revv Oakland</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 12 @ 7:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Tony, of Appcelerator fame, has agreed to hold a session on Titanium and Alloy. Native mobile application development with JS, CSS, and XML. Appcelerator Alloy [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-13-2014">13</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/100000-shoes-shoefitr-engineering-story/?instance_id=1610"
+																														data-instance-id="1610"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3644											ai1ec-event-instance-id-1610																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">100,000 Shoes: The Shoefitr Engineering Story</span>
+																							<span class="ai1ec-event-time">5:30 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/100000-shoes-shoefitr-engineering-story/?instance_id=1610">
+																									100,000 Shoes: The Shoefitr Engi&#8230;</a>
+																							<span class="ai1ec-event-location">@ AlphaLab</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 13 @ 5:30 pm – 7:30 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">1 in 3 shoes bought online are returned, and when Shoefitr started as an AlphaLab company in 2010, they set out to fix that using [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-scala-akka-case-study-big-data/?instance_id=1602"
+																														data-instance-id="1602"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3636											ai1ec-event-instance-id-1602																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Pittsburgh Scala &#8211; Akka: A Case Study in Big Data</span>
+																							<span class="ai1ec-event-time">6:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-scala-akka-case-study-big-data/?instance_id=1602">
+																									Pittsburgh Scala &#8211; Akka: A Case &#8230;</a>
+																							<span class="ai1ec-event-location">@ M*Modal</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 13 @ 6:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Joe Kramer will talk about how he used Akka to solve a real world problem. And, the fun things learned. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/cocoaheads-pittsburgh-monthly-discussion/?instance_id=1603"
+																														data-instance-id="1603"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3637											ai1ec-event-instance-id-1603																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">CocoaHeads Pittsburgh &#8211; Monthly Discussion</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/cocoaheads-pittsburgh-monthly-discussion/?instance_id=1603">
+																									CocoaHeads Pittsburgh &#8211; Monthly &#8230;</a>
+																							<span class="ai1ec-event-location">@ Eat N Park</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 13 @ 7:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">This month, Josh Smith (a.k.a. @kognate) will talk about Ephemeral Core Data: using Core Data without persistence for Awesome. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/gdi-code-coffee-night-march/?instance_id=1604"
+																														data-instance-id="1604"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3638											ai1ec-event-instance-id-1604																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">GDI Code and Coffee Night &#8211; March</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/gdi-code-coffee-night-march/?instance_id=1604">
+																									GDI Code and Coffee Night &#8211; March</a>
+																							<span class="ai1ec-event-location">@ 21st Street Coffee and Tea</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 13 @ 7:00 pm – 9:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Code and Coffee is a monthly opportunity for you to put your skills to work and meet others that share your interests. Bring your laptop, [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-14-2014">14</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-15-2014">15</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+												</tr><!--/tr.ai1ec-week-->
+					<tr class="ai1ec-week">
+															<td >
+
+															<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-16-2014">16</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-17-2014">17</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-18-2014">18</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/alphalab-information-night-3/?instance_id=1643"
+																														data-instance-id="1643"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3693											ai1ec-event-instance-id-1643																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">AlphaLab Information Night</span>
+																							<span class="ai1ec-event-time">5:30 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/alphalab-information-night-3/?instance_id=1643">
+																									AlphaLab Information Night</a>
+																							<span class="ai1ec-event-location">@ AlphaLab</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 18 @ 5:30 pm – 7:30 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt"> AlphaLab Information Night is an opportunity for you to come and learn about AlphaLab, ask questions about the program and the application process, and [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-web-design-meetup-group-monthly-meetup/?instance_id=1657"
+																														data-instance-id="1657"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3699											ai1ec-event-instance-id-1657																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">The Pittsburgh Web Design Meetup Group Monthly Meetup</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-web-design-meetup-group-monthly-meetup/?instance_id=1657">
+																									The Pittsburgh Web Design Meetup&#8230;</a>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 18 @ 7:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">&nbsp; Join the Meetup group for more information on this event. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-19-2014">19</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/microcontroller-meet/?instance_id=1659"
+																														data-instance-id="1659"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3700											ai1ec-event-instance-id-1659																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Microcontroller Meet-Up</span>
+																							<span class="ai1ec-event-time">6:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/microcontroller-meet/?instance_id=1659">
+																									Microcontroller Meet-Up</a>
+																							<span class="ai1ec-event-location">@ TechShop</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 19 @ 6:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Do you love Arduino? How about Raspberry Pi? Do you want know about these things but don&#8217;t know where to begin? Come to our monthly [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/intro-python-workshop-encore-presentation/?instance_id=1605"
+																														data-instance-id="1605"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3639											ai1ec-event-instance-id-1605																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Intro to Python Workshop: Encore Presentation</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/intro-python-workshop-encore-presentation/?instance_id=1605">
+																									Intro to Python Workshop: Encore&#8230;</a>
+																							<span class="ai1ec-event-location">@ Google Pittsburgh - Bakery Square</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 19 @ 7:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">IF YOU ATTENDED THE FIRST INTRO PYTHON WORKSHOP, HELD ON FEBRUARY 26TH, PLEASE DO NOT RSVP FOR THIS ONE UNTIL AT LEAST 3/16/2014, TO GIVE [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-20-2014">20</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/ember-js-pittsburgh-monthly-meetup/?instance_id=1607"
+																														data-instance-id="1607"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3641											ai1ec-event-instance-id-1607																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Ember.js Pittsburgh Monthly Meetup</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/ember-js-pittsburgh-monthly-meetup/?instance_id=1607">
+																									Ember.js Pittsburgh Monthly Meetup</a>
+																							<span class="ai1ec-event-location">@ Revv Oakland</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 20 @ 7:00 pm – 8:30 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Ember.js Pittsburgh monthly meetup every 3rd Thursday. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-21-2014">21</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-22-2014">22</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+												</tr><!--/tr.ai1ec-week-->
+					<tr class="ai1ec-week">
+															<td >
+
+															<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-23-2014">23</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-24-2014">24</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-25-2014">25</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-entrepreneur-meetup-group-monthly-meetup-3/?instance_id=1646"
+																														data-instance-id="1646"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3695											ai1ec-event-instance-id-1646																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">The Pittsburgh Entrepreneur Meetup Group Monthly Meetup</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/pittsburgh-entrepreneur-meetup-group-monthly-meetup-3/?instance_id=1646">
+																									The Pittsburgh Entrepreneur Meet&#8230;</a>
+																							<span class="ai1ec-event-location">@ Revv Oakland</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 25 @ 7:00 pm – 8:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">A monthly meetup hosted by The Pittsburgh Entrepreneur Group. See link for more details. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-26-2014">26</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/introduction-numpy/?instance_id=1608"
+																														data-instance-id="1608"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3642											ai1ec-event-instance-id-1608																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Introduction to NumPy</span>
+																							<span class="ai1ec-event-time">2:15 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/introduction-numpy/?instance_id=1608">
+																									Introduction to NumPy</a>
+																							<span class="ai1ec-event-location">@ IBM Squirrel Hill</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 26 @ 2:15 pm – 3:15 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">An introduction to NumPy, which is the foundation of Python&#8217;s powerful scientific and numerical computing ecosystem. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-27-2014">27</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/start-start-starting-social-enterprise/?instance_id=1668"
+																														data-instance-id="1668"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3705											ai1ec-event-instance-id-1668																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Start Smart: Starting a Social Enterprise</span>
+																							<span class="ai1ec-event-time">5:30 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/start-start-starting-social-enterprise/?instance_id=1668">
+																									Start Smart: Starting a Social &#8230;</a>
+																							<span class="ai1ec-event-location">@ Hamburg Hall</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 27 @ 5:30 pm – 7:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Profit with a Purpose: Starting a Social Enterprise.  Featuring a presentation by Eric Davis and moderated by Stephanie Dangel.  Open and free to all students, [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/spring-pitch-fest/?instance_id=1649"
+																														data-instance-id="1649"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3696											ai1ec-event-instance-id-1649																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Spring Pitch Fest</span>
+																							<span class="ai1ec-event-time">6:30 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/spring-pitch-fest/?instance_id=1649">
+																									Spring Pitch Fest</a>
+																							<span class="ai1ec-event-location">@ C-leveled</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 27 @ 6:30 pm – 9:30 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">If you&#8217;ve never attended one of our Pitch Fests, now is the time to start! We&#8217;ll have both 10 minute pitch decks and 90 second [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/go-steel-programmers-monthly-meetup-2/?instance_id=1609"
+																														data-instance-id="1609"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3643											ai1ec-event-instance-id-1609																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Go Steel Programmers &#8211; Monthly Meetup</span>
+																							<span class="ai1ec-event-time">7:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/go-steel-programmers-monthly-meetup-2/?instance_id=1609">
+																									Go Steel Programmers &#8211; Monthly M&#8230;</a>
+																							<span class="ai1ec-event-location">@ ModCloth</span>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 27 @ 7:00 pm – 8:30 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">We have a presentation each month, followed by (and/or interleaved with) a discussion and group mutual education session. </div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-28-2014">28</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/startup-weekend-pittsburgh/?instance_id=1653"
+																															data-end-day="30"
+											data-start-truncated="false"
+											data-end-truncated="false"
+																				data-instance-id="1653"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3697											ai1ec-event-instance-id-1653																						ai1ec-multiday"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">Startup Weekend Pittsburgh</span>
+																							<span class="ai1ec-event-time">6:30 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/startup-weekend-pittsburgh/?instance_id=1653">
+																									Startup Weekend Pittsburgh</a>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 28 @ 6:30 pm – Mar 30 @ 9:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">Ever wondered what it takes to be an entrepreneur? The professional and personal challenges, the high and lows, the failures and the success? Startup Weekend is [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td class="ai1ec-today">
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-29-2014">29</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+												</tr><!--/tr.ai1ec-week-->
+					<tr class="ai1ec-week">
+															<td >
+
+															<div class="ai1ec-day-stretcher"></div>
+															
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-30-2014">30</a></div>
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td >
+
+							
+							<div class="ai1ec-day">
+								<div class="ai1ec-date"><a class="ai1ec-load-view" data-type="json" href="http://pgh.rustbuilt.org/?ai1ec=action~oneday|exact_date~3-31-2014">31</a></div>
+																	<a href="http://pgh.rustbuilt.org/ai1ec_event/march-openhack/?instance_id=1699"
+																														data-instance-id="1699"
+										class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+											ai1ec-event-id-3743											ai1ec-event-instance-id-1699																						"
+										>
+
+										<div class="ai1ec-event"
+											style="">
+											<span class="ai1ec-event-title">March OpenHack</span>
+																							<span class="ai1ec-event-time">6:00 pm</span>
+																					</div>
+									</a>
+									<div class="ai1ec-popup hide">
+										
+										<span class="ai1ec-popup-title popover-title">
+											<a href="http://pgh.rustbuilt.org/ai1ec_event/march-openhack/?instance_id=1699">
+																									March OpenHack</a>
+																																</span><!--/.span.ai1ec-popup-title-->
+										
+										<div class="ai1ec-event-time">Mar 31 @ 6:00 pm – 9:00 pm</div>
+
+										
+																					<div class="ai1ec-popup-excerpt">pghrb &#8211; Pittsburgh&#8217;s Ruby User Group Monday, March 31 at 6:00 PM Please RSVP so that we can provide you a Wifi login and count [...]</div>
+																			</div><!-- .ai1ec-popup.hide -->
+															</div><!--/.ai1ec-day-->
+						</td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+																				<td class="ai1ec-empty"></td>
+												</tr><!--/tr.ai1ec-week-->
+			</tbody>
+</table>
+			</div>
+		</div>
+
+		<div class="ai1ec-subscribe-container btn-group pull-left">
+	<a class="btn ai1ec-subscribe ai1ec-tooltip-trigger" data-placement="bottom"
+		href="webcal://pgh.rustbuilt.org/?plugin=all-in-one-event-calendar&controller=ai1ec_exporter_controller&action=export_events&cb=1675112936"
+		title="Subscribe to this calendar in your personal calendar (iCal, Outlook, etc.)" >
+		<i class="icon-plus"></i>
+					Subscribe			</a>
+	<a class="btn ai1ec-subscribe-google ai1ec-tooltip-trigger" target="_blank"
+		data-placement="bottom"
+		href="http://www.google.com/calendar/render?cid=http%3A%2F%2Fpgh.rustbuilt.org%2F%3Fplugin%3Dall-in-one-event-calendar%26controller%3Dai1ec_exporter_controller%26action%3Dexport_events%26cb%3D1675112936"
+		title="Subscribe to this calendar in your Google Calendar" >
+		<i class="icon-google-plus icon-large"></i>
+		Add to Google	</a>
+</div>
+	</div><!-- /.timely -->
+</div>
+<!-- END All-in-One Event Calendar Plugin -->

@@ -1,0 +1,26 @@
+.wrap {
+    max-width: 940px
+}
+.nav {
+    border: 0;
+    margin: 0 auto;
+    max-width: 1140px;
+    min-width: 290px;
+}
+.nav li {
+    float: left;
+    position: relative;
+}
+.nav li a {
+    border-bottom: 0;
+    /* color: red; */
+}
+.nav li a:hover, .nav li a:focus {
+    color: #BCBEC0;
+}
+.head_social li a {
+    color: transparent;
+}
+.intro {
+	-webkit-background-size: 960px auto;
+}

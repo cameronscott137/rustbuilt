@@ -1,0 +1,215 @@
+/* ======================================================= */
+/* #THEME-TYPOGRAPHY - Font-family, color, and line-height goes here (defaults found in base.css)  */
+/* ======================================================= */
+
+body{ 
+	font: 12px/19px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color: #666;
+	}
+a{text-decoration: none;}
+a:hover{color: #555555; text-decoration: none;}
+
+.module a:hover{opacity: 1;}
+
+			
+/* Headline Text */	 
+h1, h2, h3, h4, h5, h6, 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {  
+  	font-family: "alternate-gothic-no-3-d",sans-serif;
+	color: #fafafa;
+	text-transform: uppercase;
+	}
+h1{
+	font-size: 2em;
+	margin-right: 40%;
+	margin-bottom: 5px;
+	line-height: 1.1;
+}
+	 
+h5 { 
+	font-size: 12px; 
+	line-height: 120%;
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-weight: normal;
+} 
+	
+h2.title, h1.title span{ 
+    font-size: 28px;
+    line-height: 1;
+    padding: 15px 0 0 0;
+	text-align: left;
+	color: #555;
+}
+
+p{
+	font-size: 13px;
+	font-family: "lucida grande", sans-serif;
+	line-height: 1.3;
+	color: #f4f4f4;
+}
+
+h2.title span, h1.title span{  padding: 17px 22px 17px 0; text-align: center; }
+
+.sidebar h3, .aside h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 120%;
+}
+
+h3#comments{font-size: 24px; margin-bottom: 25px;}
+
+/* Comment Space Font Rules */
+.commentlist .comment-body .commentmetadata {
+    font-size: 12px;
+    font-style: italic;
+   }
+.vcard a{font-size: 16px; font-weight: bold; color: #222}
+.says{color: #999;}
+
+ 
+ 
+/* Small Text Classes */
+.tags a, #section-tophat, #section-footer span, #section-sub-footer, .meta{
+	font-size: 11px
+}
+
+#section-footer {
+	font-size: 12px
+}
+
+.portfolio-filters span, .portfolio-view span{
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 21px;
+   }
+
+label, legend {
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+::selection{
+	background: #fFcC00;
+	color: #000000;
+	text-shadow: none;
+}
+
+::-moz-selection{
+	background: #fFcC00;
+	color: #000000;
+}
+
+/* Specialty classes */
+
+.tabs li a{color: #111;}
+
+.aside-container{margin-right: 20px;}
+
+.aside{
+	background: rgba(0,0,0,0.03);
+    border-right: 4px solid rgba(155, 155, 155, 0.1);
+    font-size: 11px;
+    padding: 10px 15px 10px 0px;
+    display: block;
+}
+
+.aside p{
+		  line-height: 145%;
+		  }
+
+.superquote{
+	clear: both; 
+	margin: 40px 0; 
+	font-size: 26px; 
+	font-style: italic; 
+	font-family: Georgia; 
+	line-height: 34px; 
+	padding-left: 20px; 
+}
+
+.supertagline{
+	clear: both; 
+	margin: 0 0 20px; 
+	font-size: 13px; 
+	font-family: "lucida grande", sans-serif; 
+	line-height: 1.2; 
+	display: block;
+	color: #f4f4f4;
+}
+
+.supertagline small{font-size: 14px; text-transform: uppercase; clear: both; display: block;}
+
+#page-header .supertagline{margin: 8px 0 22px;}
+
+/* Featured Space (for downloads and stuff) */
+.feature {
+	font-size: 24px;
+	font-style: italic;
+	font-family: Georgia; 
+	line-height: 34px;
+}	
+
+	
+    
+    
+.feature span{
+	padding: 10px;
+	}
+
+.feature .button{
+	float: right;
+}
+
+
+/* Menu Text - Light Skin Colors Below in Main Section*/
+
+
+.sf-menu > li > a { /* Top Level Link */
+	font-size: 2em;
+	}
+	
+.sf-menu > li a span{ /* Top Level Sub-text */
+	font-size: 9.5px; 
+	font-weight: normal; 
+	line-height: 9px; 
+	color: #777; 
+	display: block; /* To ensure that the subtext drops a line */
+	}
+
+.sf-menu > li:hover a strong { color: #222; }
+.sf-menu > li:hover a span{ color: #444; }
+
+/* Dropdown Links */
+.sf-menu ul { 
+	font-size: 12px;
+	color: #CCC;
+	}
+
+.sf-menu ul li:hover a{ color: #ffcc00; }
+
+/* Light version of dropdown */
+.sf-menu.light ul li a { color: #555; }
+.sf-menu.light ul li:hover a{ color: #000 ; }
+.sf-menu.light ul { color: #333; }
+
+	
+
+/* Tophat and Footer Text */
+#section-tophat, #section-tophat a,
+#section-footer, #section-footer a, 
+#section-sub-footer{ 
+	}
+
+#section-footer h5{ 
+	}
+
+#section-footer a{
+	text-decoration: none;
+	}
+	
+h5.no_image{margin-top: 0px; padding-top: 0px;}
+	
